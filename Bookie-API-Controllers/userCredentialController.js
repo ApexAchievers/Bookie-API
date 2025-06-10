@@ -1,5 +1,5 @@
 //import addUser file to controller
-import { User } from "../Bookie-aPI-Models/userCredentialModel.js";
+import { User } from "../Bookie-API-Models/userCredentialModel.js";
 
 //Define and export a controller function that creates a new user
 export const signUp = async(req, res) =>{

@@ -1,0 +1,34 @@
+{
+  "name": "bookie-api",
+  "version": "1.0.0",
+  "description": "Book API for library management system",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApexAchievers/Bookie-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApexAchievers/Bookie-API/issues"
+  },
+  "homepage": "https://github.com/ApexAchievers/Bookie-API#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -20,6 +20,11 @@ export const bookSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    Category:{
+        type: String,
+        enum: ['Fiction', 'Non-Fiction', 'Science Fiction', 'Fantasy', 'Mystery', 'Thriller', 'Biogragphy', 'History', 'Children', 'Other'],
+        required: true,
+    }
     
 }, {
     timestamps: true,

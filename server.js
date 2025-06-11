@@ -17,7 +17,7 @@ const app =  express();
 app.use(express.json())
 app.use(cors())
 app.use('/User', userRoute)
-app.use('/books', bookRoute)
+app.use('/api/v1/books', bookRoute)
 
 //connect server to mongoDB
 mongoose.connect(process.env.MONGO_URI)

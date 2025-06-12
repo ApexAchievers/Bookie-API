@@ -3,7 +3,7 @@ import { Book } from "../Bookie-API-Models/bookModel.js";
 //  Create a new book
 export const addBook = async (req, res) => {
   try {
-    const { Title, Author, Description, yearPublished, Category } = req.body;
+    const { Title, Author, Description, yearPublished, ImageUrl, Category } = req.body;
      
 
     const newBook = new Book({
@@ -11,6 +11,7 @@ export const addBook = async (req, res) => {
       Author,
       Description,
       yearPublished,
+      ImageUrl,
       Category,
     });
 
